@@ -15,6 +15,9 @@ The server application can be downloaded from the following link.
 
 [controlloid-server](https://github.com/experiment322/controlloid-server)
 
+## Building
+* use node version manager with node v16 to build
+
 ## Features
 * All the buttons of a PS2 controller (except L3 and R3)
 * Supports multiple clients (limited to 16 on Windows)

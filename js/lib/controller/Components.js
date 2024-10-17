@@ -17,6 +17,23 @@ export default [
       stickerIcon: "alpha-r-box",
     },
   },
+  // Stick buttons
+  {
+    name: "Left stick Button",
+    type: "Button",
+    props: {
+      emit: "BUTTON_STICKL",
+      stickerIcon: "alpha-l-box",
+    },
+  },
+  {
+    name: "Right stick Button",
+    type: "Button",
+    props: {
+      emit: "BUTTON_STICKR",
+      stickerIcon: "alpha-r-box",
+    },
+  },
   {
     name: "L1",
     type: "Button",
